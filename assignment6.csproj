@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" />
+  </ItemGroup>
+
+    <ItemGroup>
+    <Reference Include="ConverterLibrary">
+      <hintpath>C:\CIDM3312\missingWork\assignment6\bin\Debug\netcoreapp2.1\ConverterLibrary.dll</hintpath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
